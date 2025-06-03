@@ -1,7 +1,6 @@
 from django.views.generic import (
     ListView, CreateView, UpdateView, DeleteView, DetailView
     )
-from django.urls import reverse_lazy
 
 # Импортируем класс BirthdayForm, чтобы создать экземпляр формы.
 from .forms import BirthdayForm
